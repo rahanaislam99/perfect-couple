@@ -1,0 +1,380 @@
+
+/* custom css */
+body p{
+	font-family: 'PT Serif', serif;
+	font-size: 14px;
+    line-height: 1.714;
+    color: #999999;
+}
+body h2{
+	font-family: 'Engagement', cursive;
+	font-size: 48px;
+	font-weight: normal;
+	color: #222222;
+	line-height: 1.1;
+}
+body h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	line-height: 1.1;
+	letter-spacing: 0.2em;
+	color: #222222;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+body h6{
+	font-family: 'Open Sans', sans-serif;
+	color: #d6516d;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 15px;
+	font-weight: 900;
+	line-height: 1.1;
+}
+img{
+	max-width: 100%;
+}
+
+.btn-primary{
+	color: #ffffff;
+	background: #d6516d;
+	border-color: #d13c5c;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	line-height: 1.7;
+	border: 1px solid transparent;
+	padding: 6px 12px;
+}
+.btn-primary:hover{
+	background: #C62F4E;
+	border: 1px solid #e80736;
+}
+.bg-pink{
+	background: #D6516D;
+}
+.bg-gray{
+	background: #F5F4EC;
+}
+
+
+
+/* header slider css */
+.heart-png{
+	width: 90px;
+}
+.header-slider h1 {
+    width: 43%;
+    margin-top: -525px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-10deg);
+    font-size: 74px;
+    font-weight: 700;
+    font-family: 'Engagement', cursive;
+}
+
+.header-slider h3 {
+    font-size: 23px;
+    margin-top: 60px;
+    margin-bottom: 22px;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-slider span{
+	color: red;
+}
+
+
+/* header menu css */
+nav.navbar.navbar-expand-lg.navbar-light {
+    margin: 0;
+    padding: 0;
+}
+.nav-menu {
+    border-top: 2px solid #e80736;
+    border-bottom: 2px solid #e80736;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    padding: 20px;
+    line-height: 2.5;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: block;
+}
+.navbar-nav li a:hover{
+	background: #C62F4E !important;
+    
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(img/download.jfif);
+}
+
+
+/* about us css */
+ .Our-Love-Story.card-img-top {
+    width: 76%;
+} .about-us .card-img-top {
+    width: 76%;
+}
+.carg-body-iconlist li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #D6516D;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 2px;
+}
+.carg-body-iconlist a {
+    color: #4c4949;
+    font-size: 15px;
+}
+.carg-body-iconlist li:hover{
+	color: #fff;
+	background:#D6516D ;
+}
+.au-img{
+	position: relative;
+}
+.au-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 76%;
+    margin: auto;
+    background: #d6516d9e;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.au-img:hover .au-img-overlay{
+	opacity: 1;
+}
+.au-img-overlay span {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* Our-Love-Story css */
+.Our-Love-Story .card {
+    background: none;
+}
+.ols-img{
+	position: relative;
+}
+.ols-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: #d6516d9e;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ols-img:hover .ols-img-overlay{
+	opacity: 1;
+}
+.ols-img-overlay span {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* most important people */
+.mip-img{
+	position: relative;
+}
+.mip-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: #d6516d9e;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+}
+.mip-img:hover .mip-img-overlay{
+	opacity: 1;
+}
+.mip-img-overlay span {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+/* Fun-Facts css */
+.Fun-Facts {
+    background: url(img/funfacts.jpg) no-repeat center center;
+    background-size: cover;
+}
+.fun-fact-text {
+    background: #D6516D;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.fun-fact-text h1 {
+    color: #fff;
+    font-size: 90px;
+    font-weight: 900;
+    padding-top: 41px;
+}
+
+/* Accommodation-img css */
+.Accommodation-img{
+	position: relative;
+}
+
+.Accommodation-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: #4494d1b3;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+}
+.Accommodation-img:hover .Accommodation-overlay{
+	opacity: 1;
+}
+.Accommodation-overlay-content {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* gallery css */
+.w-gallery {
+    position: relative;
+}
+.g-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 91%;
+    margin: auto;
+    background: #d6516d9e;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+.w-gallery:hover .g-overlay{
+	opacity: 1;
+}
+.g-overlay-content {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* contact area */
+.contact-area{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.contact-area span img{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+.contact-form {
+    background: #D6516D;
+    margin: auto;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+iframe {
+    height: 600px;
+}
+
+/* brand css */
+.brand {
+    border: 1px solid #ddd;
+    padding: 13px;
+}
+
+
+
+/* responsive css */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+	/* custom css */
+	body h2{
+		font-size: 32px;
+	}
+	img {
+    max-width: 55%;
+	}
+	.love-heading {
+    padding: 0px !important;
+	}
+	.header-slider img{
+		max-width: 100% !important;	
+	}
+	.eandp img{
+		max-width: 100% !important;
+	}
+	.contact-form {
+    width: 59%;
+    top: 38px;
+}
+ }
